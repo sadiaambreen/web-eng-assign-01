@@ -9,7 +9,7 @@ div{
 }
     h1{
         font-family: 'Times New Roman', Times, serif;
-        font-size: 4em;
+        font-size: 3em;
         border-bottom: 15px solid rgb(199, 112, 112);
         border-top: 20px solid rgb(0, 225, 255);
         box-shadow:20px 20px 4px palevioletred;
@@ -19,11 +19,15 @@ div{
         margin: 50px;
         background-color: antiquewhite;
         font-style: italic;
-
+    }
+    center h2{
+      display: inline;
+      margin: 0;
     }
     h2{
       font-family: 'Times New Roman', Times, serif;
-      font-size: 3em;
+      font-size: 2em;
+      display: flex;
       border-bottom: 10px solid rgb(199, 112, 112);
       border-top: 10px solid rgb(0, 225, 255);
       box-shadow:10px 20px 4px palevioletred;
@@ -45,7 +49,6 @@ div{
     margin-top: auto;
     margin-bottom: auto;
     text-align: left;
-    margin: 50px;
     background-color: antiquewhite;
     font-style: italic;
 
@@ -58,14 +61,13 @@ color: aliceblue;
     ul {
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 10px0;
         overflow: hidden;
         background-color: #333;
+        display: flex;
+        flex-wrap: wrap;
       }
       
-      li {
-        float: right;
-      }
       
       li a {
         display: block;
@@ -88,19 +90,8 @@ color: aliceblue;
     flex-direction: column;
     justify-content: center;
     }
-    .img{
-      width: 50;
-      height: 50;
-      margin: 10px;
-      border-bottom: 7px solid red;
-      border-top: 7px solid rgb(229, 255, 0);
-      transition:alt 1s;
-      text-shadow: navajowhite;
-  }
+   
     img{
-        width: 50;
-        height: 50;
-        margin: 10px;
         border-bottom: 7px solid red;
         border-top: 7px solid rgb(229, 255, 0);
         text-shadow: navajowhite;
